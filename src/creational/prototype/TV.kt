@@ -3,7 +3,7 @@ package creational.prototype
 abstract class TV (
         open val brand : String,
         open val screenInches : Int,
-        open val color : String,
+        open var color : String,
         open val price : Double ) : Cloneable {
 
     @Throws(CloneNotSupportedException::class)
