@@ -5,8 +5,7 @@ import creational.prototype.TV
 /**
  * Supports multiple standards defined by different
  * object hierarchy.
- **/
-
+ */
 fun main(args: Array<String>) {
     var f1 : TvAbstractFactory = FactoryLcdBlue()
     manufactureTV( f1 )
