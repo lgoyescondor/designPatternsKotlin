@@ -1,6 +1,7 @@
 package structural.decorator
 
-class AirConditioner(override var accessory : Accessory) : CarDecorator( accessory = accessory ) {
+class AirConditioner(override var accessory : Accessory) :
+        CarDecorator( accessory = accessory ) {
     override fun getDescription(): String {
         return accessory.getDescription() + " + Air Conditioner"
     }
