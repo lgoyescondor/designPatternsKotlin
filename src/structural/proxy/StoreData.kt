@@ -5,7 +5,7 @@ class StoreData : IStore {
         if( ConnectionManager.connectionAvailable ){
             StoreRemote().store( dataToStore )
         }else{
-            StoreRemote().store( dataToStore )
+            StoreLocal().store( dataToStore )
         }
     }
 }
