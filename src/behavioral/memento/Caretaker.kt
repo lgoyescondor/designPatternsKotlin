@@ -7,5 +7,5 @@ class Caretaker {
         states.add( m )
     }
 
-    fun getMemento(index : Int) : Memento? = states[index]
+    fun getMemento(index : Int) : Memento? = states.getOrNull(index)
 }
